@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.item {
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.narrow-container {
+  width: 50%;
+  display: flex;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
